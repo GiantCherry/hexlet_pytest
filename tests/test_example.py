@@ -9,7 +9,6 @@ def test_reverse_for_empty_string():
     assert reverse('') == ''
 
 
-
 def get_test_data_path(filename):
     return Path(__file__).parent / 'test_data' / filename
 
